@@ -35,7 +35,7 @@
 
     --radius: 0.5rem;
 
-    --font-sans: "Inter";
+    --font-sans: 'Inter';
   }
 
   .dark {
@@ -78,6 +78,6 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
   }
 }
